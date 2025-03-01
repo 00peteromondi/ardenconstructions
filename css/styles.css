@@ -1,0 +1,72 @@
+body {
+    background-color: cornsilk;
+}
+h1 {
+    color: darkolivegreen;
+    justify-self: center;
+    letter-spacing: 1.5px;
+    font-size: 60px;
+    padding-top: 30px;
+    animation: blink 2s infinite;
+
+}
+h2 {
+    color: maroon;
+    justify-self: center;
+    letter-spacing: 2.2px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration-line: overline;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+div {
+    width: 50px;
+    height: 50px;
+    background-color: maroon;
+    margin-top: 15%;
+    justify-self: left;
+    margin-left: 200px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+  }
+  
+  @keyframes example {
+    0%   {background-color:maroon; left:0px; top:0px;}
+    25%  {background-color:grey; left:850px; top:0px;}
+    50%  {background-color:yellowgreen; left:850px; top:300px;}
+    75%  {background-color:olivedrab; left:0px; top:300px;}
+    100% {background-color:maroon; left:0px; top:0px;}
+  }
+@media screen and (max-width: 780px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    h1 {
+        margin-top: 60px;
+        font-size: 30px;
+        padding-top: 20px;
+        justify-self: center;
+    }
+    h2 {
+        font-size: small;
+        justify-self: center;
+    }
+    div {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 25%;
+        margin-bottom: 20px;
+    }
+    @keyframes example {
+        0%   {background-color:maroon; left:0px; top:0px;}
+        25%  {background-color:grey; left:400px; top:0px;}
+        50%  {background-color:yellowgreen; left:400px; top:250px;}
+        75%  {background-color:olivedrab; left:0px; top:250px;}
+        100% {background-color:maroon; left:0px; top:0px;}
+      }
+}
