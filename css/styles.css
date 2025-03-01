@@ -1,72 +1,141 @@
-body {
-    background-color: cornsilk;
+.myproject {
+    scroll-behavior: smooth;
+    scrollbar-width: 5px;
+    scrollbar-color: maroon olivedrab;
 }
-h1 {
-    color: darkolivegreen;
-    justify-self: center;
-    letter-spacing: 1.5px;
-    font-size: 60px;
-    padding-top: 30px;
-    animation: blink 2s infinite;
 
-}
-h2 {
-    color: maroon;
-    justify-self: center;
-    letter-spacing: 2.2px;
-    font-weight: bolder;
-    font-size: 40px;
-    text-decoration-line: overline;
-    padding-top: 20px;
-    text-transform: uppercase;
-}
-div {
-    width: 50px;
-    height: 50px;
+#top-header {
     background-color: maroon;
-    margin-top: 15%;
-    justify-self: left;
-    margin-left: 200px;
-    position: relative;
-    animation-name: example;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    color: olivedrab;
+    font-size: 18px;
+}
+#top-header .ml-auto {
+    padding: 10px 30px;
+}
+#top-header i {
+    margin: 5px;
+}
+.navbar .navbar-nav .nav-item a {
+    color: olivedrab;
+    font-weight: lighter;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-size: small;
+    margin: 15px;
+}
+.navbar .navbar-nav .nav-item a:hover {
+    color: maroon;
+    text-decoration: none;
+}
+
+#home {
+    background-image: url('../static/background.jpg');
+    background-size: cover;
+    background-repeat: none;
+    padding-bottom: 10%;
+    background-position: bottom;
+}
+.home-content {
+    justify-items: center;
+    text-align: left;
+    padding-top: 150px;
+    font-family: "Playwrite Italia Moderna", cursive;
+    
+}
+
+.home-content i {
+    color: maroon;
+    font-size: 68px;
+    
+    
+    
+}
+.home-content h1 {
+    letter-spacing: 1.5px;
+    font-size: 56px;
+    color: maroon;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Playwrite Italia Moderna", cursive;
+}
+.home-content p {
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    color: maroon;
+    font-family: "Playwrite Italia Moderna", cursive;
+}
+.mybtn {
+    color: maroon;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    margin-left: 15px;
+    letter-spacing: 1.2px;
     border-radius: 5px;
-  }
-  
-  @keyframes example {
-    0%   {background-color:maroon; left:0px; top:0px;}
-    25%  {background-color:grey; left:850px; top:0px;}
-    50%  {background-color:yellowgreen; left:850px; top:300px;}
-    75%  {background-color:olivedrab; left:0px; top:300px;}
-    100% {background-color:maroon; left:0px; top:0px;}
-  }
-@media screen and (max-width: 780px) {
-    body {
-        background-color: lightgoldenrodyellow;
+    border: solid 2px olivedrab;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.mybtn:hover {
+    color: olivedrab;
+    border: solid 2px maroon;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #top-header {
+        background-color: maroon;
+        color: olivedrab;
+        font-size: 12px;
     }
-    h1 {
-        margin-top: 60px;
-        font-size: 30px;
-        padding-top: 20px;
-        justify-self: center;
+    #top-header .ml-auto {
+        padding: 0px 18px;
     }
-    h2 {
+    #top-header i {
+        margin: 2px;
+    }
+    .home-content {
+        padding: 40px;
+        margin-top: 100px;
+        justify-items: center;
+        text-align: center;
+        
+    }
+
+    .home-content i {
+        font-size: 80px;
+        font-weight: bolder;
+        padding-bottom: 50px;
+        color: maroon;
+    }
+
+    .home-content h1 {
+        font-size: 46px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home-content p {
         font-size: small;
-        justify-self: center;
+        margin-top: 15px;
+        margin-bottom: 45px;
     }
-    div {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-        margin-top: 25%;
-        margin-bottom: 20px;
+    #home {
+        background-position: right;
     }
-    @keyframes example {
-        0%   {background-color:maroon; left:0px; top:0px;}
-        25%  {background-color:grey; left:400px; top:0px;}
-        50%  {background-color:yellowgreen; left:400px; top:250px;}
-        75%  {background-color:olivedrab; left:0px; top:250px;}
-        100% {background-color:maroon; left:0px; top:0px;}
-      }
+    .mybtn {
+        color: maroon;
+        font-size: small;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 3px;
+        border: solid 2px maroon;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+    }
+    
 }
