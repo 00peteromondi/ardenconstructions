@@ -89,11 +89,8 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    body #myproject {
-        width: 100%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+@media screen and (max-width: 800px) {
+    
     #top-header {
         background-color: maroon;
         color: olivedrab;
@@ -147,7 +144,7 @@
     }
     .mybtn {
         color: maroon;
-        font-size: smaller;
+        font-size: 15px;
         font-weight: bolder;
         padding-left: 7px;
         padding-right: 7px;
