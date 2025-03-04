@@ -23,9 +23,26 @@ html {
     color: olivedrab;
 
 }
+button.navbar-toggler {
+    background-color: none;
+    color: goldenrod;
+    border-color: maroon;
+    border: solid 1px maroon;
+}
+
+button.navbar-toggler:focus, button.navbar-toggler:active, button.navbar-toggler.collapsed {
+    outline: none;
+    box-shadow: none;
+    color: maroon;
+    border-color: maroon;
+    border: solid 1px maroon;
+    
+}
+button.navbar-toggler i {
+    color: olivedrab;
+}
 .navbar {
     border: solid 1px maroon;
-    border-top-width: 3px;
     border-left: none;
     border-right: none;
     border-bottom-width: 5px;
