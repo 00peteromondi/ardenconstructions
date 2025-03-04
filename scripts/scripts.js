@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
         navbarLinks.forEach(link => {
             const section = document.querySelector(link.hash);
-            if (section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
+            const offset = 120; // Adjust this value for the desired padding
+            if (section.offsetTop - offset <= scrollPos && section.offsetTop + section.offsetHeight - offset > scrollPos) {
                 link.classList.add('active');
             } else {
                 link.classList.remove('active');

@@ -58,8 +58,9 @@ html {
 }
 .home-content {
     justify-items: center;
+    margin-top: 100px;
     text-align: left;
-    padding-top: 150px;
+    padding-top: 50px;
     font-family: "Playwrite Italia Moderna", cursive;
     
 }
@@ -91,11 +92,7 @@ html {
     color: maroon;
     text-transform: uppercase;
     background-color: goldenrod;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 3px;
-    margin-left: 15px;
+    padding: 18px;
     letter-spacing: normal;
     border-radius: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -109,6 +106,7 @@ html {
 .mybtn:hover i {
     color: goldenrod;
 }
+
 #about {
     background-color: whitesmoke;
     padding-top: 80px;
@@ -141,13 +139,14 @@ html {
     padding: 50px;
     justify-content: flex-start;
     font-weight: 200;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.04rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #aboutcards {
     padding: 50px;
     font-weight: 50;
-    letter-spacing: 0.06rem;
+    font-size: smaller;
+    letter-spacing: 0.04rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: mintcream;
     border-radius: 10px;
@@ -158,7 +157,7 @@ html {
 #aboutcards h6 {
     color: maroon;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: overline;
 }
 .mission {
     border-right: solid 1px maroon;
@@ -215,14 +214,10 @@ html {
     .mybtn {
         color: maroon;
         font-size: 15px;
-        font-weight: 100;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 15px;
         margin-top: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+    
     .mybtn:hover {
         color: goldenrod;
     }
