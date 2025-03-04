@@ -214,7 +214,15 @@ html {
     .mybtn {
         color: maroon;
         font-size: 15px;
+<<<<<<< HEAD
         padding: 15px;
+=======
+        font-weight: medium;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+>>>>>>> 6d97202d1c74117615e1113865c9903c73623f50
         margin-top: 30px;
     }
     
