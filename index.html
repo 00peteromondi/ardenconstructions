@@ -34,7 +34,7 @@
             </div> 
         </header>
     <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mynav">
             <a class="navbar-brand" href="#home" style="color: olivedrab;"><i style="font-size: 36px;" class="fa-solid fa-igloo"></i>&nbsp;&nbsp;ARDEN<br> <small style="justify-self: center;font-size: small;font-weight: bold; color: maroon;">CONSTRUCTIONS LTD</small></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,10 +48,13 @@
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Us</a>
@@ -59,14 +62,14 @@
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid" id="home">
+        <section class="container-fluid" id="home">
             <div class="row">
                 <div class="col-md-12">
                     <div class="home">
                         <div class="home-content">
                             <i class="fa-solid fa-igloo animate__animated animate__fadeIn animate__delay-1s"></i>
                             <h1 class="animate__animated animate__fadeIn animate__delay-1s">Arden <small> Constructions</small></h1>
-                            <p class="animate__animated animate__fadeIn animate__delay-2s">One Stop Shop for all your Pre-Cast Concrete Products, Equipment & Machine Hiring Needs.</p>
+                            <p class="animate__animated animate__fadeIn animate__delay-2s">One Stop reliable Site for all your Pre-Cast Concrete Products, Equipment & Machine Hiring Needs</p>
                             <p class="animate__animated animate__fadeIn animate__delay-3s" style="font-size: 18px;">| Concretes Posts | Road Kerbs | Ventilation Bricks | Cabros | Culvert Pipes |</p>
                             <a href="#about" class="mybtn animate__animated animate__fadeIn animate__delay-4s">Explore Products &nbsp;&nbsp;<i style="font-size: 20px;justify-self: center;" class="fa-solid fa-angle-down"></i></a>
                             
@@ -75,7 +78,40 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="container-fluid" id="about">
+            <div class="row">
+                <div class="col-sm-4" id="aboutimage" data-aos="zoom-in" data-aos-duration="1000">
+                    <h1 data-aos="zoom-in" data-aos-duration="1000">About Us</h1>
+                    <p data-aos="zoom-in" data-aos-duration="1000">Get to know more about Arden</p>
+                </div>
+                <div class="col-sm-6" id="abouttext">
+                    <p data-aos="fade-up" data-aos-duration="600">Arden Construction was established in 1995 with a mission to provide high-quality construction materials and services. Over the years, we have grown to become a trusted name in the industry, known for our commitment to excellence and customer satisfaction.</p>
+                    <p data-aos="fade-up" data-aos-duration="700">We specialize in the production of pre-cast concrete products, including concrete posts, road kerbs, ventilation bricks, cabros, and culvert pipes. Our state-of-the-art manufacturing facilities and experienced team ensure that every product meets the highest standards of quality and durability.</p>
+                    <p data-aos="fade-up" data-aos-duration="800">In addition to our product offerings, we also provide equipment and machine hiring services to support your construction projects. Whether you need heavy machinery or specialized tools, Arden Construction has the resources to help you get the job done efficiently and effectively.</p>
+                    <p data-aos="fade-up" data-aos-duration="900">Our team of experts is dedicated to providing exceptional customer service and support. We work closely with our clients to understand their unique needs and deliver customized solutions that meet their specific requirements. At Arden Construction, we are committed to building lasting relationships with our clients based on trust, reliability, and excellence.</p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="row text-center" id="aboutcards">
+                        <div class="col-sm-6 mission" data-aos="fade-up" data-aos-duration="1200">
+                
+                            <h6 data-aos="fade-up" data-aos-duration="1200">Mission</h6>
+                            <p data-aos="fade-up" data-aos-duration="1300"> <small> To provide high-quality construction materials and services that meet the needs of our clients and exceed their expectations. We are committed to excellence, integrity, and customer satisfaction in everything we do.</small></p>
+                        </div>
+                        <div class="col-sm-6 vission" data-aos="fade-up" data-aos-duration="1200">
+                            
+                            <h6 data-aos="fade-up" data-aos-duration="1200">Vission</h6>
+                            <p data-aos="fade-up" data-aos-duration="1300"> <small> To be the leading provider of construction materials and services in the region. We strive to set the industry standard for quality, innovation, and customer service, and to be a trusted partner for our clients.</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -85,7 +121,7 @@
         AOS.init();
         
     </script>
-    <script src="static/scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
     
 </body>
 </html>

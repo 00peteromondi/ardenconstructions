@@ -1,5 +1,9 @@
 
-
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: maroon goldenrod;
+    scrollbar-width: thin;
+}
 #top-header{
     background-color: maroon;
     color: olivedrab;
@@ -25,6 +29,7 @@
     border-left: none;
     border-right: none;
     border-bottom-width: 5px;
+    position: sticky;
 }
 .navbar .navbar-nav .nav-item a {
     color: olivedrab;
@@ -104,11 +109,67 @@
 .mybtn:hover i {
     color: goldenrod;
 }
+#about {
+    background-color: whitesmoke;
+    padding-top: 80px;
+}
+#aboutimage {
+    text-align: center;
+    padding: 50px 150px 50px 150px;
+    margin: 50px 30px 30px 30px;
+    border-radius: 10px;
+    letter-spacing: normal;
+    color: goldenrod;
+    background-image: url('../static/precast_box_culverts.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 
+}
+
+#aboutimage h1 {
+    font-size: 66px;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+#aboutimage p {
+    font-size: 14px;
+    font-weight: 500;
+}
+#abouttext {
+    padding: 50px;
+    justify-content: flex-start;
+    font-weight: 200;
+    letter-spacing: 0.06rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#aboutcards {
+    padding: 50px;
+    font-weight: 50;
+    letter-spacing: 0.06rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: mintcream;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: olivedrab;
+}
+#aboutcards h6 {
+    color: maroon;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.mission {
+    border-right: solid 1px maroon;
+    
+}
 
 
 @media screen and (max-width: 800px) {
-    
+    .navbar {
+        position: sticky;
+    }
     #top-header {
         background-color: maroon;
         color: olivedrab;
@@ -154,11 +215,11 @@
     .mybtn {
         color: maroon;
         font-size: 15px;
-        font-weight: bold;
-        padding-left: 7px;
-        padding-right: 7px;
+        font-weight: 100;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-top: 10px;
-        padding-bottom: 3px;
+        padding-bottom: 10px;
         margin-top: 30px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -167,6 +228,28 @@
     }
     .mybtn:hover i {
         color: goldenrod;
+    }
+    #aboutimage {
+        padding: 30px;
+        margin-right: 20px;
+
+    }
+    #abouttext {
+        font-size: small;
+    }
+    .mission {
+        border-right: none;
+        font-size: 12px;
+    }
+    .vission h6, .mission h6{
+        margin-top: 20px;
+        text-decoration: overline;
+        
+    }
+    .vission {
+        font-size: 12px;
+        margin-bottom: 30px;
+        border-bottom: solid 4px maroon;
     }
     
 }
