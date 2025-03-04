@@ -27,4 +27,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Call onScroll initially to set the active class based on the initial scroll position
     onScroll();
+    // Adjust scroll position to avoid hiding content behind the navbar
+    const hash = window.location.hash;
+    if (hash) {
+        const target = document.querySelector(hash);
+        if (target) {
+            const offset = 150; // Same offset value as in onScroll function
+            window.scrollTo({
+                top: target.offsetTop - offset,
+                behavior: 'smooth'
+            });
+        }
+    }
 });
