@@ -72,12 +72,13 @@ button.navbar-toggler i {
     background-repeat: none;
     padding-bottom: 10%;
     background-position: bottom;
+    padding-top: 100px;
 }
 .home-content {
     justify-items: center;
     margin-top: 100px;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 10px;
     font-family: "Playwrite Italia Moderna", cursive;
     
 }
@@ -133,7 +134,7 @@ button.navbar-toggler i {
 
 #about {
     background-color: whitesmoke;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 #aboutimage {
     text-align: center;
@@ -234,6 +235,7 @@ button.navbar-toggler i {
     }
     #home {
         background-position: right;
+        padding-top: 100px;
     }
     .mybtn {
         color: maroon;
@@ -256,6 +258,9 @@ button.navbar-toggler i {
     }
     .mybtn:hover i {
         color: goldenrod;
+    }
+    #about {
+        padding-top: 100px;
     }
     #aboutimage {
         padding: 30px;
