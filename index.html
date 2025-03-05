@@ -16,13 +16,47 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="myproject">
-        <header>
+        <header class="relative" id="header">
             <div class="container-fluid">
                 <div class="row text-center" id="top-header">
                     <span><i class="fa-solid fa-phone"></i> +254 722 123 456</span>
                     <span><i class="fa-solid fa-envelope"></i> ardenconstruction@gmail.com</span>
                     <span><i class="fa-solid fa-map-marker"></i>Lala Rd-Homabay, Kenya</span>
                 </div>
+            </div> 
+        </header>
+    
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mynav">
+            <a class="navbar-brand" href="#home" style="color: olivedrab;"><i style="font-size: 36px;" class="fa-solid fa-igloo"></i>&nbsp;&nbsp;ARDEN<br> <small style="justify-self: center;font-size: small;font-weight: bold; color: maroon;">CONSTRUCTIONS LTD</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i><i class="fa-solid fa-x" id="x"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#about">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#navbarNav" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#navbarNav" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#navbarNav" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#navbarNav" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="fixed-bottom" id="header">
+            <div class="container-fluid">
                 <div class="row text-center" id="header-socials">
                     <span><i class="fa-brands fa-facebook-f"></i></span>
                     <span><i class="fa-brands fa-google"></i></span>
@@ -33,44 +67,17 @@
                 </div>
             </div> 
         </header>
-    <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mynav">
-            <a class="navbar-brand" href="#home" style="color: olivedrab;"><i style="font-size: 36px;" class="fa-solid fa-igloo"></i>&nbsp;&nbsp;ARDEN<br> <small style="justify-self: center;font-size: small;font-weight: bold; color: maroon;">CONSTRUCTIONS LTD</small></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars-staggered"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        
         <section class="container-fluid" id="home">
             <div class="row">
                 <div class="col-md-12">
                     <div class="home">
                         <div class="home-content">
                             <i class="fa-solid fa-igloo animate__animated animate__fadeIn animate__delay-1s"></i>
-                            <h1 class="animate__animated animate__fadeIn animate__delay-1s">Arden <small> Constructions</small></h1>
+                            <h1 class="animate__animated animate__fadeRight animate__delay-1s" data-aos="fade-right">Arden <small data-aos="fade-left"> Constructions</small></h1>
                             <p class="animate__animated animate__fadeIn animate__delay-1s">One Stop reliable Site for all your Pre-Cast Concrete Products, Equipment & Machine Hiring Needs</p>
-                            <p class="animate__animated animate__fadeIn animate__delay-1s" style="font-size: 18px;">| Concretes Posts | Road Kerbs | Ventilation Bricks | Cabros | Culvert Pipes |</p>
+                            <p class="animate__animated animate__fadeIn animate__delay-1s" style="font-weight: 1000;margin-bottom: 10px;">| Concretes Posts | Road Kerbs | Ventilation Bricks | Cabro Bricks | Culvert Pipes |</p>
+                            <p id="fadeEl" class="text-show animate__animated animate__fadeIn animate__delay-1s" style="font-weight: 1000;" >Quality, Durable Products</p>
                             <a href="#about" class="mybtn animate__animated animate__fadeIn animate__delay-2s">Explore Products &nbsp;&nbsp;<i class="fa-solid fa-angles-down"></i><i class="fa-solid fa-square-caret-right"></i></a>
                             
             
@@ -83,7 +90,7 @@
             <div class="row">
                 <div class="col-sm-4" id="aboutimage" data-aos="zoom-in" data-aos-duration="1000">
                     <h1 data-aos="zoom-in" data-aos-duration="1000">About Us</h1>
-                    <p data-aos="zoom-in" data-aos-duration="1000">Get to know more about Arden</p>
+                    <p data-aos="zoom-in" data-aos-duration="1000">Get to know more about Arden Constructions Limited</p>
                 </div>
                 <div class="col-sm-6" id="abouttext">
                     <p data-aos="fade-up" data-aos-duration="600">Arden Construction was established in 1995 with a mission to provide high-quality construction materials and services. Over the years, we have grown to become a trusted name in the industry, known for our commitment to excellence and customer satisfaction.</p>

@@ -12,11 +12,12 @@ html {
     
 }
 #top-header i {
-    margin: 5px 10px;
+    margin: 8px 10px;
 }
 #header-socials {
     background-color: maroon;
     justify-content: center;
+    padding: 8px;
 }
 #header-socials i {
     margin: 0px 20px;
@@ -72,7 +73,6 @@ button.navbar-toggler i {
     background-repeat: none;
     padding-bottom: 10%;
     background-position: bottom;
-    padding-top: 100px;
 }
 .home-content {
     justify-items: center;
@@ -82,10 +82,21 @@ button.navbar-toggler i {
     font-family: "Playwrite Italia Moderna", cursive;
     
 }
-
+.text-show {
+    color: black;
+    opacity: 1;
+    transition: all 1s ease;
+}
+  
+.text-fade {
+    color: black;
+    opacity: 0;
+    transition: all 1s ease;
+}
 .home-content i {
     color: maroon;
     font-size: 68px;
+    padding-top: 50px;
     
     
     
@@ -95,12 +106,12 @@ button.navbar-toggler i {
     font-size: 56px;
     color: maroon;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-family: "Playwrite Italia Moderna", cursive;
 }
 .home-content p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     padding-bottom: 15px;
     color: maroon;
@@ -190,22 +201,30 @@ button.navbar-toggler i {
 }
 
 
-@media screen and (max-width: 800px) {
-    .navbar {
-        position: sticky;
+@media screen and (max-width: 780px) {
+    #x {
+        display: none;
     }
+    
+    .navbar {
+        position: fixed;
+    }
+    
     #top-header {
         background-color: maroon;
         color: olivedrab;
         font-size: 12px;
     }
-   
+
     #top-header i {
-        margin: 2px;
+        margin: 5px;
+    }
+    #header-socials {
+        display: none;
+        
     }
     .home-content {
-        padding: 35px;
-        margin-top: 40px;
+        padding: 10px;
         justify-items: center;
         text-align: center;
         
@@ -214,28 +233,27 @@ button.navbar-toggler i {
     .home-content i {
         font-size: 80px;
         font-weight: bolder;
-        padding-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 10px;
         color: maroon;
     }
 
     .home-content h1 {
         font-size: 52px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
     }
     .home-content p {
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: 700;
         margin-top: 15px;
         margin-bottom: 10px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     #home {
         background-position: right;
-        padding-top: 100px;
+        padding-top: 10px;
+        padding-bottom: 100px;
     }
     .mybtn {
         color: maroon;
@@ -259,13 +277,28 @@ button.navbar-toggler i {
     .mybtn:hover i {
         color: goldenrod;
     }
-    #about {
-        padding-top: 100px;
+    #aboutcards {
+        padding: 20px;
+        font-size: x-small;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
+    #aboutcards h6 {
+        font-size: small;
+    }
+    #about {
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }  
     #aboutimage {
         padding: 30px;
-        margin-right: 20px;
+        margin-top: 100px;
 
+    }
+    #aboutimage h1 {
+        padding-top: 30px;
+        font-size: 40px;
     }
     #abouttext {
         font-size: small;
