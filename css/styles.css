@@ -180,11 +180,11 @@ button.navbar-toggler i {
 }
 #aboutcards {
     padding: 50px;
-    font-weight: 50;
+    font-weight: 400;
     font-size: smaller;
     letter-spacing: 0.04rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: mintcream;
+    background-color: lightgrey;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -199,6 +199,72 @@ button.navbar-toggler i {
     border-right: solid 1px maroon;
     
 }
+.footer {
+    background-color: maroon;
+    color: olivedrab;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footerA p {
+    margin-top: 30px;
+    text-align: left;
+}
+#footerB li{
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+   
+}
+#footerB ul {
+    margin-top: 50px;
+}
+#footerC ul {
+    margin-top: 30px;
+    text-align: left;
+}
+#footerC li {
+    padding: 10px;
+}
+#footerC li i {
+    margin-right: 10px;
+}
+.footer hr {
+    background-color: olivedrab;
+    width: 90%;
+}
+
+.footer h6 {
+    color: goldenrod;
+    letter-spacing: 0.03rem;
+    margin-top: -15px;
+}
+.footer hr {
+    background-color: olivedrab;
+    width: 90%;
+}
+
+#quicklinks li {
+    display: inline-block;
+    color: olivedrab;
+    padding: 5px;
+    letter-spacing: 0.02rem;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#quicklinks li a {
+    color: olivedrab;
+    text-decoration: none;
+}
+#quicklinks li a:hover {
+    color: goldenrod;
+    text-decoration: overline;
+    
+}
+
+
 
 
 @media screen and (max-width: 780px) {
@@ -293,7 +359,7 @@ button.navbar-toggler i {
     }  
     #aboutimage {
         padding: 30px;
-        margin-top: 100px;
+        margin: 100px 20px 0px 20px;
 
     }
     #aboutimage h1 {
@@ -317,5 +383,43 @@ button.navbar-toggler i {
         margin-bottom: 30px;
         
     }
+    .footer {
+        background-color: maroon;
+        color: olivedrab;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #footerA p {
+        margin-top: 15px;
+        text-align: left;
+    }
+    #footerB li{
+        display: inline;
+        padding: 7px;
+        font-size: 24px;
+       
+    }
+    #footerB ul {
+        margin-top: 30px;
+    }
+    #footerC ul {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #footerC li {
+        padding: 10px;
+    }
+    #footerC li i {
+        margin-right: 10px;
+    }
+    
+    #quicklinks li a {
+        color: olivedrab;
+        text-decoration: none;
+        font-size: smaller;
+    }
+    
     
 }
