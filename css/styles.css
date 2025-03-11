@@ -227,7 +227,7 @@ button.navbar-toggler i {
 #footerC li {
     padding: 10px;
 }
-#footerC li i {
+#footerC li img {
     margin-right: 10px;
 }
 .footer hr {
@@ -263,6 +263,12 @@ button.navbar-toggler i {
     text-decoration: overline;
     
 }
+#sponsors li img{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
 
 
 
