@@ -218,7 +218,7 @@ button.navbar-toggler i {
    
 }
 #footerB ul {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #footerC ul {
     margin-top: 30px;
@@ -276,7 +276,24 @@ button.navbar-toggler i {
     
 }
 
-
+#products, #services, #gallery, #contact {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    text-align: center;
+    
+    
+}
+#products h1, #services h1, #gallery h1, #contact h1 {
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+    color: maroon;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
