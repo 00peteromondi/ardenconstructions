@@ -19,8 +19,8 @@ html {
     justify-content: center;
     padding: 8px;
 }
-#header-socials i {
-    margin: 0px 20px;
+#header-socials img {
+    margin: 0px 10px;
     color: olivedrab;
 
 }
@@ -226,9 +226,16 @@ button.navbar-toggler i {
 }
 #footerC li {
     padding: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+.icon-goldenrod {
+    fill: goldenrod;
+    color: goldenrod;
 }
 #footerC li img {
-    margin-right: 10px;
+    margin-right: 7px;
 }
 .footer hr {
     background-color: olivedrab;
