@@ -199,6 +199,57 @@ button.navbar-toggler i {
     border-right: solid 1px maroon;
     
 }
+#aboutbtn ul {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+    padding: 25px;
+    
+
+}
+#aboutbtn ul li a {
+    display: inline;
+    padding: 5px;
+    color: olivedrab;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+#aboutbtn ul li a:hover {
+    color: maroon;
+    text-decoration: overline wavy;
+}
+#productsdetail {
+    padding: 20px;
+    background-color: whitesmoke;
+    color: olivedrab;
+    font-weight: lighter;
+}
+#productsdescription img {
+    margin-top: 10px;
+    position: center;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+#productsdescription h6 {
+    letter-spacing: normal;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: maroon;
+    text-decoration: overline;
+}
+#productsdescription p {
+    font-size: smaller;
+    color: olivedrab;
+    letter-spacing: 0.01rem;
+}
 .footer {
     background-color: maroon;
     color: olivedrab;
@@ -399,6 +450,22 @@ button.navbar-toggler i {
     }
     #abouttext {
         font-size: small;
+    }
+    #productsdescription {
+        padding: 30px;
+        border-radius: 0px;
+    }
+    #productsdescription #ventilation {
+        border-bottom-left-radius: 0px !important;
+        border-top-left-radius: 10px  !important;
+        border-top-right-radius: 10px  !important;
+    }
+    #productsdescription #trappers, #productsdescription #cabroblocks {
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+    }
+    #productsdescription #concreteposts {
+        border-top-right-radius: 10px !important;
     }
     .mission {
         border-right: none;
