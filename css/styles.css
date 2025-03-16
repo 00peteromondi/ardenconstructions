@@ -11,8 +11,8 @@ html {
     justify-content: center;
     
 }
-#top-header i {
-    margin: 8px 10px;
+#top-header img {
+    margin: 8px;
 }
 #header-socials {
     background-color: maroon;
@@ -230,7 +230,7 @@ button.navbar-toggler i {
     font-weight: lighter;
 }
 #productsdescription img {
-    margin-top: 10px;
+    margin-top: 15px;
     position: center;
     width: 200px;
     height: 150px;
@@ -259,7 +259,7 @@ button.navbar-toggler i {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #footerA p {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
 }
 #footerB li{
@@ -269,10 +269,10 @@ button.navbar-toggler i {
    
 }
 #footerB ul {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #footerC ul {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
 }
 #footerC li {
@@ -326,6 +326,10 @@ button.navbar-toggler i {
     padding: 10px;
     
 }
+#productsdescription .col-md, #productsdescription .col-md-4 {
+    margin: 5px;
+    border-radius: 10px !important;
+}
 
 #products, #services, #gallery, #contact {
     background-color: whitesmoke;
@@ -340,7 +344,7 @@ button.navbar-toggler i {
     color: maroon;
     font-weight: 700;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     background-color: goldenrod;
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -428,8 +432,7 @@ button.navbar-toggler i {
     #aboutcards {
         padding: 20px;
         font-size: x-small;
-        margin-top: 10px;
-        margin-bottom: 20px;
+       margin: 10px 30px;
     }
     #aboutcards h6 {
         font-size: small;
@@ -451,25 +454,10 @@ button.navbar-toggler i {
     #abouttext {
         font-size: small;
     }
-    #productsdescription {
-        padding: 30px;
-        border-radius: 0px;
-    }
-    #productsdescription #ventilation {
-        border-bottom-left-radius: 0px !important;
-        border-top-left-radius: 10px  !important;
-        border-top-right-radius: 10px  !important;
-    }
-    #productsdescription #trappers, #productsdescription #cabroblocks {
-        border-bottom-left-radius: 10px !important;
-        border-bottom-right-radius: 10px !important;
-    }
-    #productsdescription #concreteposts {
-        border-top-right-radius: 10px !important;
-    }
     .mission {
         border-right: none;
         font-size: 12px;
+        
     }
     .vission h6, .mission h6{
         margin-top: 20px;
@@ -481,6 +469,11 @@ button.navbar-toggler i {
         margin-bottom: 30px;
         
     }
+    #productsdescription .col-md, #productsdescription .col-md-4 {
+        margin: 15px 70px;
+        border-radius: 10px !important;
+    }
+    
     .footer {
         background-color: maroon;
         color: olivedrab;
