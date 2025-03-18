@@ -67,6 +67,13 @@ button.navbar-toggler i {
     text-decoration: underline;
     text-decoration-line: overline;
 }
+#brand {
+   text-align: center;
+   justify-self: center;
+   justify-content: center;
+   justify-items: center;
+    
+}
 #home {
     background-image: url('../static/background.jpg');
     background-size: cover;
@@ -93,10 +100,11 @@ button.navbar-toggler i {
     opacity: 0;
     transition: all 1s ease;
 }
-.home-content i {
+.home-content img {
     color: maroon;
-    font-size: 68px;
-    padding-top: 50px;
+    width: auto;
+    height: 150px;
+    padding-top: 30px;
     
     
     
@@ -229,14 +237,25 @@ button.navbar-toggler i {
     color: olivedrab;
     font-weight: lighter;
 }
-#productsdescription img {
+#productsdescription img{
     margin-top: 15px;
     position: center;
     width: 200px;
     height: 150px;
     border-radius: 5px;
 }
-#productsdescription h6 {
+#servicedescription {
+    margin: 10px 50px;
+    box-sizing: border-box;
+}
+#servicedescription img {
+    margin-top: 15px;
+    position: center;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+#productsdescription h6, #servicedescription h5 {
     letter-spacing: normal;
     margin-top: 15px;
     text-transform: uppercase;
@@ -245,10 +264,16 @@ button.navbar-toggler i {
     color: maroon;
     text-decoration: overline;
 }
-#productsdescription p {
+#productsdescription p, #servicedescription p {
     font-size: smaller;
     color: olivedrab;
     letter-spacing: 0.01rem;
+}
+#servicedescription #machinehiring {
+    margin: 30px;
+}
+#machinehiring {
+    padding-bottom: inherit;
 }
 .footer {
     background-color: maroon;
@@ -350,6 +375,44 @@ button.navbar-toggler i {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#services h2 {
+    font-size: 46px;
+    font-weight: 500;
+    color: maroon;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25%;
+}
+#services h6 {
+    margin: 7px;
+    font-size: 14px;
+    color: maroon;
+    text-transform: uppercase;
+}
+#machinehiring li a {
+    color: maroon;
+    text-decoration: dotted;
+}
+
+#servicedescription {
+    padding: 10px;
+}
+.content {
+    font-size: 14px;
+    font-weight: 500;
+    color: maroon;
+    letter-spacing: 0.02rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+#content {
+    display: none;
+    
+
+    
+}
 
 
 @media screen and (max-width: 780px) {
@@ -469,11 +532,17 @@ button.navbar-toggler i {
         margin-bottom: 30px;
         
     }
+   
     #productsdescription .col-md, #productsdescription .col-md-4 {
         margin: 15px 70px;
         border-radius: 10px !important;
     }
-    
+    #servicedescription {
+        margin: 20px;
+    }
+    #servicedescription #machinehiring {
+        margin: 10px;
+    }
     .footer {
         background-color: maroon;
         color: olivedrab;

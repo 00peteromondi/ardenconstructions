@@ -25,7 +25,19 @@
                 </div>
             </div> 
         </header>
-        
+        <header class="sticky-top" id="header">
+            <div class="container-fluid">
+                <div class="row text-center" id="header-socials" style="background-color: none;">
+                    <span><img src="static/facebook-seeklogo.svg" alt="facebook" style="width: auto; height: 15px;"></i></span>
+                    <span><img src="static/google-seeklogo.svg" alt="google" style="width: auto; height: 15px;"></span>
+                    <span><img src="static/instagram-new-2022-seeklogo.svg" alt="instagram" style="width: auto; height: 15px;"></span>
+                    <span><img src="static/youtube-2017-icon-seeklogo.png" alt="youtube" style="width: auto; height: 15px;"></span>
+                    <span><img src="static/facebook-messenger-seeklogo.svg" alt="messenger" style="width: auto; height: 15px;"></span>
+                    <span><img src="static/whatsapp-icon-seeklogo.svg" alt="whatsapp" style="width: auto; height: 15px;"></span>
+                    <span><img src="static/tiktok-app-icon-seeklogo.png" alt="tiktok" style="width: auto; height: 15px;"></span>
+                </div>
+            </div> 
+        </header>
     
     <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mynav">
@@ -42,45 +54,105 @@
                         <a class="nav-link"  href="index.html#about">About Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active" href="#services">Services</a>
+                        <a class="nav-link  active" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products.html">Products</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="contacts.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <header class="fixed-bottom" id="header">
-            <div class="container-fluid">
-                <div class="row text-center" id="header-socials">
-                    <span><img src="static/facebook-seeklogo.svg" alt="facebook" style="width: auto; height: 15px;"></i></span>
-                    <span><img src="static/google-seeklogo.svg" alt="google" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/instagram-new-2022-seeklogo.svg" alt="instagram" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/youtube-2017-icon-seeklogo.png" alt="youtube" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/facebook-messenger-seeklogo.svg" alt="messenger" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/whatsapp-icon-seeklogo.svg" alt="whatsapp" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/tiktok-app-icon-seeklogo.png" alt="tiktok" style="width: auto; height: 15px;"></span>
-                </div>
-            </div> 
-        </header>
+        
         <section id="services">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
                         <h1>Services <br><small style="font-size: small;">Arden Constructions</small></h1>
                     </div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="col-md text-center" id="myservices">
+                    <div class="row" id="productsdetail" style="padding-left: 50px;padding-right: 50px;">
+                        <p>At Arden Construction, we offer a range of services including <small style="font-weight: 600;"> the manufacturing of high-quality concrete products, shallow borehole construction, and machinery and tools hiring</small>. Our experienced team ensures top-notch service delivery to meet your construction needs.</p>
+                    </div>
+                    <div class="row" id="servicedescription">
+                        <div class="col-md" id="machinehiring" style="background-color: lightgoldenrodyellow;border-radius: 10px;">
+                            <img src="static/building-construction-hammer-10-svgrepo-com.svg" alt="concrete posts" >
+                            <h6>Concrete Products Manufucturing</h6>
+                            <hr>
+                            <p>We manufucture concrete posts and products of all kind.</p>
+                            <hr>
+                            
+                            <div id="content" class="content" style="display:none;">
+                                <p>Our concrete products are durable and high-quality, suitable for various construction needs. We manufacture:</p>
+                                <ul class="list-unstyled" style="display: inline-block;font-size: smaller;">
+                                    <li>Concrete Posts</li>
+                                    <li>Road Kerbs</li>
+                                    <li>Ventilation Bricks</li>
+                                    <li>Cabro Bricks</li>
+                                    <li>Culvert Pipes</li>
+                                </ul>
+                            </div>
+                            <h5><li class="list-unstyled"><a href="javascript:void(0);" class="myBtn" onclick="toggleDiv('content', this)" data-toggle="toggle" data-target="mesh">View More</a></li></h5>
+                        </div>
+                        
+                        <div class="col-md" id="machinehiring" style="background-color: lightgoldenrodyellow;border-radius: 10px;">
+                            <img src="static/cement-concrete-concreting-svgrepo-com.svg" alt="concrete posts" >
+                            <h6>Machinery & Equipment Hiring</h6>
+                            <hr>
+                            <p>A Variety of Power machines for your construction needs.</p>
+                            <hr>
+                            
+                            <div id="content1" class="content" style="display:none;">
+                                <p>We offer a variety of construction tools for hire, including concrete mixers, vibrators, and trappers. Our equipment is well-maintained and available for both short-term and long-term rental to meet your construction needs.</p>
+                            </div>
+                            <h5><li class="list-unstyled" id="mesh"><a href="javascript:void(0);" class="myBtn" onclick="toggleDiv('content1', this)" data-toggle="toggle" data-target="mesh">View More</a></li></h5>
+                        </div>
+                        <div class="col-md" id="machinehiring" style="background-color: lightgoldenrodyellow;border-radius: 10px;">
+                            <img src="static/building-construction-hammer-9-svgrepo-com.svg" alt="concrete posts" >
+                            <h6>Shallow Borehole Constructions</h6>
+                            <hr>
+                            <p>Construction and maintanance of shallow boreholes.</p>
+                            <hr>
+                            
+                            <div id="content2" class="content" style="display:none;">
+                                <p>We provide professional shallow borehole drilling services to ensure a reliable water supply for your agricultural, domestic, or industrial needs. Our team uses advanced equipment to drill and maintain boreholes efficiently.</p>
+                            </div>
+                            <h5><li class="list-unstyled"><a href="javascript:void(0);" class="myBtn" onclick="toggleDiv('content2', this)" data-toggle="toggle" data-target="mesh">View More</a></li></h5>
+                     
+                        </div>
+                        <div class="col-md" id="machinehiring" style="background-color: lightgoldenrodyellow;border-radius: 10px;">
+                            <img src="static/construction-dump-dumper-svgrepo-com.svg" alt="concrete posts" >
+                            <h6>Transport & Logistical Services</h6>
+                            <hr>
+                            <p>Need Transport or Logistical Services?</p>
+                            <hr>
+                            
+                            <div id="content4" class="content" style="display:none;">
+                                <p>We offer transport after sale services to our clients. Need your logistical issues sorted? We got you! With destinations across Kenya, trust us to deliver your goods safe and on time.</p>
+                            </div>
+                            <h5><li class="list-unstyled"><a href="javascript:void(0);" class="myBtn" onclick="toggleDiv('content4', this)" data-toggle="toggle" data-target="mesh">View More</a></li></h5>
+                        </div>
+                        
+                    </div>
                     
                 </div>
-            </div>
+                <div class="row">
+                    <hr style="width: 75%;height: 1px; border-radius: 25px;background-color: maroon;"data-aos="zoom-up" data-aos-duration="1200">
+                    <div class="col-md-12" id="aboutbtn">
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item"><a href="index.html#about">About Arden</a></li>
+                            <li class="list-inline-item"><a href="products.html">Products</a></li>
+                            <li class="list-inline-item"><a href="contacts.html">Contact Arden</a></li>
+                        </ul>
+                    </div>
+                </div>
+
         </section>
         <footer class="footer">
             <div class="container p-4">
@@ -112,7 +184,7 @@
                         <hr style="width: 25%; margin-bottom: none;height: 3px;position: relative; right: 0; border-radius: 5px;">
                         <h6 class="text-uppercase" style="text-align: center;"data-aos="zoom-up" data-aos-duration="1200">Contact Us</h6>
                         <ul class="list-unstyled mb-0">
-                            <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/google-contacts-seeklogo.svg" alt="phone" style="width: auto; height: 20px;"> +254 722 123 456</li>
+                            <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/google-contacts-seeklogo.svg" alt="phone" style="width: auto; height: 20px;"> +254 727 833 009</li>
                             <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/gmail-new-2020-seeklogo.png" alt="mail" style="width: auto; height: 20px;"> ardenconstruction@gmail.com</li>
                             <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/google-maps-icon-2020-seeklogo.svg" alt="map" style="width: auto; height: 24px;"> Salama Rd-Homabay, Kenya</li>
                             <li data-aos="zoom-up" data-aos-duration="1200"><img class="icon-goldenrod" src="static/clock-icon.svg" alt="clock" style="width: auto; height: 24px;"> MON - FRI 7:00AM To 6:30PM</li>
@@ -131,7 +203,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="products.html">Products</a></li>
                     
-                    <li><a href="gallery.html">Gallery</a></li>
+                    
                     <li><a href="contacts.html">Contact Us</a></li>
                 </ul>
             </div>

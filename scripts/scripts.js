@@ -81,3 +81,31 @@ function toggleNavbarToggle() {
 window.addEventListener('scroll', toggleNavbarToggle);
 toggleNavbarToggle();
 
+function toggleDiv(id, link) {
+    var e = document.getElementById(id);
+    var allDivs = document.querySelectorAll('#services .content');
+    
+    allDivs.forEach(div => {
+        if (div !== e) {
+            div.style.display = 'none';
+            var associatedLink = document.querySelector(`#services a[href="javascript:void(0);"][onclick*="${div.id}"]`);
+            if (associatedLink) {
+                associatedLink.innerHTML = "View More";
+            }
+        }
+    });
+
+    if (e.style.display == null || e.style.display == "none") {
+        e.style.display = "block";
+        link.innerHTML = "View Less";
+    } else {
+        e.style.display = "none";
+        link.innerHTML = "View More";
+    }
+}
+
+// Example usage in services.html
+// <a href="javascript:void(0);" onclick="toggleDiv('serviceDetails', this)">Show More</a>
+// <div id="serviceDetails" style="display:none;">
+//     <!-- Service details content here -->
+// </div>
