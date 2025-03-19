@@ -354,6 +354,7 @@ button.navbar-toggler i {
 #productsdescription .col-md, #productsdescription .col-md-4 {
     margin: 5px;
     border-radius: 10px !important;
+    background-color: snow;
 }
 
 #products, #services, #gallery, #contact {
