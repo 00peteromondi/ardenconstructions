@@ -534,14 +534,36 @@ button.navbar-toggler i {
     }
    
     #productsdescription .col-md, #productsdescription .col-md-4 {
-        margin: 15px 70px;
+        margin: 5px;
+        padding: 5px;
+        width: max-content;
+        height: 350px;
         border-radius: 10px !important;
+        background-color: snow;
+    }
+    #services p, #products p {
+        font-size: small;
     }
     #servicedescription {
-        margin: 20px;
+        margin: 5px;
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+        
     }
     #servicedescription #machinehiring {
-        margin: 10px;
+        margin: 5px;
+    }
+    #servicedescription img, #productsdescription img {
+        width: 100px;
+        height: 100px;
+    }
+    #servicedescription h6 , #productsdescription h6 {
+        font-size: 12px;
+        padding: 0 !important;
+    }
+    #servicedescription p {
+        font-size: 11px !important;
     }
     .footer {
         background-color: maroon;
