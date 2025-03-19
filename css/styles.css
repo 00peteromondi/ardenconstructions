@@ -562,6 +562,10 @@ button.navbar-toggler i {
     #servicedescription h6 , #productsdescription h6 {
         font-size: 12px;
         padding: 0 !important;
+        text-decoration: none;
+    }
+    #productsdescription h6 {
+        font-size: 11px;
     }
     #servicedescription p {
         font-size: 11px !important;
