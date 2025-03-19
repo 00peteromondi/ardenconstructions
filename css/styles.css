@@ -4,6 +4,9 @@ html {
     scrollbar-color: maroon goldenrod;
     scrollbar-width: thin;
 }
+.navbar-brand {
+    margin-left: 30px;
+}
 #top-header{
     background-color: maroon;
     color: olivedrab;
