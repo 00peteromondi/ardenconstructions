@@ -14,6 +14,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Playwrite+IN:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+  text-align: left !important;
+}
+::placeholder {
+    color: olivedrab;
+}
+input[type=submit] {
+  background-color: goldenrod;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+    </style>
 </head>
 <body class="myproject">
         <header class="relative" id="header">
@@ -66,21 +99,8 @@
                 </ul>
             </div>
         </nav>
-        <header class="fixed-bottom" id="header">
-            <div class="container-fluid">
-                <div class="row text-center" id="header-socials">
-                    <span><img src="static/facebook-seeklogo.svg" alt="facebook" style="width: auto; height: 15px;"></i></span>
-                    <span><img src="static/google-seeklogo.svg" alt="google" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/instagram-new-2022-seeklogo.svg" alt="instagram" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/youtube-2017-icon-seeklogo.png" alt="youtube" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/facebook-messenger-seeklogo.svg" alt="messenger" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/whatsapp-icon-seeklogo.svg" alt="whatsapp" style="width: auto; height: 15px;"></span>
-                    <span><img src="static/tiktok-app-icon-seeklogo.png" alt="tiktok" style="width: auto; height: 15px;"></span>
-                </div>
-            </div> 
-        </header>
-        <section id="contact">
-            <div class="container-fluid">
+        <section>
+            <div class="container-fluid" id="contact">
                 <div class="row">
                     <div class="col-sm-4"></div>
                     <div class="col-sm-4">
@@ -89,7 +109,57 @@
                     <div class="col-sm-4"></div>
                     
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-md" >
+                        <h4 data-aos="zoom-up" data-aos-duration="1200">Get In Touch With Us</h4>
+                        <p data-aos="zoom-up" data-aos-duration="1200">If you are ready to start your next project or would like to learn more about our services, please don’t hesitate to reach out. You can contact us by phone, email, or by filling out the form below. We look forward to the opportunity to work with you and bring your vision to life.</p>
+                    </div>
+                    <div class="col-md">
+                        <div class="myform">
+                            <form action="/action_page.php" data-aos="zoom-up" data-aos-duration="1200">
+                                <img src="static/envelope-mail-svgrepo-com.svg" style="width: auto;height: 50px;" alt="">
+                                <h5>Contact Us</h5>
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="First name">
+                            
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="last name">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Phone Number">
+                                <label for="county">County</label>
+                                <select id="county" name="county">
+                                <option value="Homa Bay">Homa Bay</option>
+                                <option value="Migori">Migori</option>
+                                <option value="Kisumu">Kisumu</option>
+                                </select>
+                            
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Your Message goes here..." style="height:200px"></textarea>
+                            
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <ul class="list-unstyled mb-0">
+                            <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/google-contacts-seeklogo.svg" alt="phone" style="width: auto; height: 20px;"> +254 727 833 009</li>
+                            <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/gmail-new-2020-seeklogo.png" alt="mail" style="width: auto; height: 20px;"> ardenconstruction@gmail.com</li>
+                            <li data-aos="zoom-up" data-aos-duration="1200"><img src="static/google-maps-icon-2020-seeklogo.svg" alt="map" style="width: auto; height: 24px;"> Salama Rd-Homabay, Kenya</li>
+                            <li data-aos="zoom-up" data-aos-duration="1200"><img class="icon-goldenrod" src="static/clock-icon.svg" alt="clock" style="width: auto; height: 24px;"> MON - FRI 7:00AM To 6:30PM</li>
+                            <!-- <a target="_blank" href="https://icons8.com/icon/h9mBzekKvWas/clock">Clock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md">
+                        <div class="map-div" data-aos="zoom-up" data-aos-duration="1200">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1994.8220459970964!2d34.45619131917245!3d-0.5354538691987281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1742463553740!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>  
         </section>
         <footer class="footer">
             <div class="container p-4">

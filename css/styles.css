@@ -418,13 +418,130 @@ button.navbar-toggler i {
 
     
 }
-
+#contact h4 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left !important;
+    padding: 100px 30px 20px ;
+    color: maroon;
+    
+}
+#contact p {
+    text-align: left;
+    padding: 5px 20px;
+    font-size: small;
+    letter-spacing: 0.019rem;
+    color: olivedrab;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact h5 {
+    padding: 20px 30px 0px;
+    color: olivedrab;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact form {
+    padding: 10px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 1px none;
+    border-radius: 15px;
+    background-color: snow;
+    margin: 50px 2px 30px;
+}
+#contact form label {
+    display: none;
+}
+#contact form input {
+    text-transform: capitalize;
+    color: maroon;
+    letter-spacing: 0.019rem;
+}
+#contact ul {
+    padding: 100px 30px;
+    justify-items: left !important;
+}
+#contact li {
+    margin: 20px;
+    color: olivedrab;
+    font-weight: 200;
+    letter-spacing: 0.019rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact .map-div iframe {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
 
 @media screen and (max-width: 780px) {
     #x {
         display: none;
     }
-    
+    #contact .map-div iframe {
+        border-radius: 15px;
+        height: 300px;
+        width: auto;
+    }
+    #contact ul {
+        padding: 30px 15px;
+    }
+    #contact li {
+        margin: 10px;
+        color: olivedrab;
+        font-weight: 200;
+        letter-spacing: 0.019rem;
+        font-size: small;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #contact h4 {
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left !important;
+        padding: 50px 15px 10px ;
+        
+    }
+    #contact h5 {
+        font-size: 22px;
+    }
+    #contact p {
+        text-align: left;
+        padding: 5px 10px;
+        font-size: 12px;
+        letter-spacing: 0.019rem;
+    }
+    #contact form {
+        max-height: fit-content;
+        margin: 30px 20px;
+    }
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 3px;
+        margin-bottom: 7px;
+        resize: vertical;
+        text-align: left !important;
+        font-size: small;
+      }
+      ::placeholder {
+          color: olivedrab;
+          font-size: small;
+      }
+      input[type=submit] {
+        background-color: goldenrod;
+        text-transform: uppercase;
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
     .navbar {
         position: fixed;
     }
@@ -460,7 +577,7 @@ button.navbar-toggler i {
 
     .home-content h1 {
         font-size: 52px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 10px;
     }
     .home-content p {
@@ -468,7 +585,7 @@ button.navbar-toggler i {
         font-weight: 700;
         margin-top: 15px;
         margin-bottom: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
     #home {
         background-position: right;
