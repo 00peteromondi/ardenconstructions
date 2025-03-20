@@ -195,7 +195,7 @@ button.navbar-toggler i {
     font-size: smaller;
     letter-spacing: 0.04rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgrey;
+    background-color: snow;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -271,6 +271,7 @@ button.navbar-toggler i {
     font-size: smaller;
     color: olivedrab;
     letter-spacing: 0.01rem;
+    justify-self: left;
 }
 #servicedescription #machinehiring {
     margin: 30px;
@@ -569,6 +570,9 @@ button.navbar-toggler i {
     }
     #productsdescription h6 {
         font-size: 11px;
+    }
+    #productdescription p {
+        justify-self: left;
     }
     #servicedescription p {
         font-size: 11px !important;
