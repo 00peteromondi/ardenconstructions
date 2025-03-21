@@ -636,13 +636,13 @@ button.navbar-toggler i {
         font-size: small;
     }
     #about {
-        padding-top: 50px;
+        padding-top: 30px;
         padding-left: 10px;
         padding-right: 10px;
     }  
     #aboutimage {
         padding: 30px;
-        margin: 100px 20px 0px 20px;
+        margin: 50px 20px 0px 20px;
 
     }
     #aboutimage h1 {
@@ -650,7 +650,10 @@ button.navbar-toggler i {
         font-size: 40px;
     }
     #abouttext {
-        font-size: small;
+        font-size: 12px;
+    }
+    #abouttext small {
+        font-size: 11px !important;
     }
     .mission {
         border-right: none;
