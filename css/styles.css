@@ -129,29 +129,7 @@ button.navbar-toggler i {
     font-family: "Playwrite Italia Moderna", cursive;
 }
 .mybtn {
-    color: mintcream;
-    text-transform: uppercase;
-    background-color: goldenrod;
-    padding: 18px;
-    letter-spacing: normal;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-}
-.mybtn:hover {
-    color: goldenrod;
-    background-color: maroon;
-    text-decoration: none;
-}
-.mybtn:hover i {
-    color: goldenrod;
-}
-.mybtn i.fa-angles-down {
-    display: inline;
-    font-size: 20px;
-}
-.mybtn i.fa-square-caret-right {
-    display: none;
+    animation: 2s infinite alternate slide-in;
 }
 
 #about {
