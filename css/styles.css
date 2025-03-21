@@ -115,7 +115,7 @@ button.navbar-toggler i {
 .home-content h1 {
     letter-spacing: 1.5px;
     font-size: 56px;
-    color: maroon;
+    color: mintcream;
     margin-top: 20px;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -124,17 +124,17 @@ button.navbar-toggler i {
 .home-content p {
     font-size: 18px;
     margin-top: 20px;
-    padding-bottom: 15px;
-    color: maroon;
+    margin-bottom: 15px;
+    color: mintcream;
     font-family: "Playwrite Italia Moderna", cursive;
 }
 .mybtn {
-    color: maroon;
+    color: mintcream;
     text-transform: uppercase;
     background-color: goldenrod;
     padding: 18px;
     letter-spacing: normal;
-    border-radius: 5px;
+    border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
 }
@@ -239,6 +239,7 @@ button.navbar-toggler i {
     background-color: whitesmoke;
     color: olivedrab;
     font-weight: lighter;
+    
 }
 #productsdescription img{
     margin-top: 15px;
@@ -279,6 +280,7 @@ button.navbar-toggler i {
 #machinehiring {
     padding-bottom: inherit;
 }
+
 .footer {
     background-color: maroon;
     color: olivedrab;

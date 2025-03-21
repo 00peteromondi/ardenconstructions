@@ -90,17 +90,17 @@ function toggleDiv(id, link) {
             div.style.display = 'none';
             var associatedLink = document.querySelector(`#services a[href="javascript:void(0);"][onclick*="${div.id}"]`);
             if (associatedLink) {
-                associatedLink.innerHTML = "View More";
+                associatedLink.innerHTML = "View More ▼";
             }
         }
     });
 
     if (e.style.display == null || e.style.display == "none") {
         e.style.display = "block";
-        link.innerHTML = "View Less";
+        link.innerHTML = "View Less ▲";
     } else {
         e.style.display = "none";
-        link.innerHTML = "View More";
+        link.innerHTML = "View More ▼";
     }
 }
 
