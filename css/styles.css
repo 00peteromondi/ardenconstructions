@@ -463,8 +463,8 @@ button.navbar-toggler i {
 #contact li {
     margin: 20px;
     color: olivedrab;
-    font-weight: 200;
-    letter-spacing: 0.019rem;
+    font-weight: 100;
+    letter-spacing: 0.017rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #contact .map-div iframe {
@@ -487,9 +487,9 @@ button.navbar-toggler i {
     #contact li {
         margin: 10px;
         color: olivedrab;
-        font-weight: 200;
-        letter-spacing: 0.019rem;
-        font-size: small;
+        font-weight: lighter !important;
+        letter-spacing: 0.015rem;
+        font-size: smaller;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     #contact h4 {
@@ -544,10 +544,18 @@ button.navbar-toggler i {
       
     .navbar {
         position: fixed;
+        height: max-content;
+    }
+    .navbar .navbar-brand {
+        font-size: 12px !important;
+        padding: 0;
+    }
+    .navbar .navbar-brand small {
+        font-size: 12px !important;
     }
     
     #top-header {
-        background-color: maroon;
+        background-color: snow;
         color: olivedrab;
         font-size: 12px;
     }
@@ -564,27 +572,31 @@ button.navbar-toggler i {
         padding: 10px;
         justify-items: center;
         text-align: center;
+        margin-top: 15px;
+        
         
     }
 
-    .home-content i {
-        font-size: 80px;
+    .home-content img {
         font-weight: bolder;
-        padding-top: 30px;
+        margin-top: 10px !important;
         padding-bottom: 10px;
-        color: maroon;
+        color: mintcream;
     }
 
     .home-content h1 {
         font-size: 52px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 10px;
+        color: mintcream !important;
+        font-weight: 700 !important;
     }
     .home-content p {
         font-size: 14px;
         font-weight: 700;
         margin-top: 15px;
         margin-bottom: 10px;
+        color: mintcream !important;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
     #home {
@@ -593,10 +605,11 @@ button.navbar-toggler i {
         padding-bottom: 100px;
     }
     .mybtn {
-        color: maroon;
+        color: mintcream;
         font-size: 15px;
         padding: 15px;
         margin-top: 30px;
+        border-radius: 20px;
     }
     .mybtn i {
         font-size: 30px;

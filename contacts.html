@@ -15,36 +15,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Playwrite+IN:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+            
+        input[type=text], select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 10px;
+        resize: vertical;
+        text-align: left !important;
+        }
+        ::placeholder {
+            color: olivedrab;
+            font-weight: 700;
+        }
+        input[type=submit] {
+        background-color: goldenrod;
+        text-transform: uppercase;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  resize: vertical;
-  text-align: left !important;
-}
-::placeholder {
-    color: olivedrab;
-}
-input[type=submit] {
-  background-color: goldenrod;
-  text-transform: uppercase;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+        input[type=submit]:hover {
+        background-color: #45a049;
+        }
 
     </style>
 </head>
